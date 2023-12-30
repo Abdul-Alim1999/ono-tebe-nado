@@ -1,7 +1,7 @@
 .header {
   display: flex;
   align-items: center;
-  padding: 92px 50px 96px;
+  padding: 92px 50px 88px;
 }
 
 .header__links-list {
@@ -30,11 +30,14 @@
 
 .header__logo {
   display: block;
-  width: 148px;
+  width: 145px;
   margin-left: 40px;
 }
 
 .header__contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px 0;
   margin-left: auto;
   list-style: none;
 }
@@ -51,6 +54,7 @@
   color: #000;
   font-size: 18px;
   font-weight: 400;
+  font-style: normal;
 }
 
 .cover {
@@ -82,7 +86,7 @@
   font-weight: 700;
   text-transform: uppercase;
   line-height: 115%;
-  margin-bottom: 135px;
+  margin-bottom: 142px;
   position: relative;
   z-index: 1;
 }
@@ -115,7 +119,8 @@
   font-size: 22px;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  margin-left: 32px;
+  letter-spacing: 3px;
   z-index: 1;
 }
 
@@ -133,7 +138,7 @@
 }
 
 .lots {
-  padding: 180px 24px;
+  padding: 120px  24px 180px;
 }
 
 .lots__heading {
@@ -262,6 +267,10 @@
   line-height: 24px;
 }
 
+.about__text-mb {
+  margin-bottom: 30px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -280,6 +289,7 @@
 .footer__menu-link {
   text-decoration: none;
   border-bottom: 1px solid #000;
+  font-size: 18px;
 }
 
 .footer__menu-link_active {
