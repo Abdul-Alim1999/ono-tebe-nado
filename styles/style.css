@@ -69,7 +69,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 190px 50px 50px;
+  padding: 170px 50px 50px;
   position: relative;
 }
 
@@ -95,19 +95,14 @@
   display: block;
 }
 
-.aligned-text_left {
-  margin-top: -20px;
-}
-
 .aligned-text_center {
   text-align: center;
-  margin-top: 10px;
-  margin-right: 24px;
+  line-height: 130px;
 }
 
 .aligned-text_right {
   text-align: right;
-  margin-top: 5px;
+  line-height: 125px;
 }
 
 .letter-spacing-extended {
@@ -121,7 +116,7 @@
 .cover__description {
   display: flex;
   align-items: center;
-  padding-top: 128px;
+  padding-top: 118px;
 }
 
 .cover__description-text {
