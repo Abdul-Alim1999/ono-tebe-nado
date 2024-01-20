@@ -281,7 +281,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 0 50px 0;
+  padding: 0 50px 91px;
 }
 
 .footer__menu-list {
